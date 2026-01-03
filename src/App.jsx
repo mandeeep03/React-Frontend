@@ -1,4 +1,5 @@
 import MovieCard from "./Components/MovieCard"
+import Home from "./Pages/Home";
 
 
 function App() {
@@ -6,13 +7,7 @@ function App() {
 
   return (
     <>
-      <MovieCard
-        movie={{
-          url: "https://uk.pinterest.com/fabmovieposters/avatar-movie-posters-artwork/",
-          title: "Avatar",
-          realease_date:2-2-20
-        }}
-      />
+      <Home/>
     </>
   );
 }
