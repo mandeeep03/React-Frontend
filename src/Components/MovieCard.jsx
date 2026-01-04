@@ -8,7 +8,7 @@ function MovieCard({movie}){
         <div className="relative">
           <img src={movie.poster_url} alt={movie.title} />
           <button className="absolute top-2  right-2" onClick={onFavoriteClick}>
-            ♥️
+          ♡
           </button>
           <div className=""></div>
         </div>
